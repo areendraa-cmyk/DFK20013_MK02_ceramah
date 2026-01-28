@@ -1,0 +1,77 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ceramah Profesional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== Landing Page ===== -->
+<section class="landing">
+    <h1> CERAMAH TEKNOLOGI MASA DEPAN </h1>
+
+    <div class="speaker">
+        <img src="pensyarah.jpg" alt="Penceramah">
+        <h2>Encik Sabri</h2>
+        <p>Pensyarah Kanan & Pakar Teknologi Maklumat</p>
+    </div>
+
+    <p class="synopsis">
+        Ceramah ini memberikan pendedahan tentang teknologi masa depan dan kecerdasan buatan (AI), serta impaknya terhadap industri. Peserta akan mempelajari kemahiran penting yang diperlukan untuk bersaing dan berkembang dalam dunia kerja yang semakin digital.
+    </p>
+
+    <p><strong> Tarikh:</strong> 6 April 2026</p>
+    <p><strong> Masa:</strong> 11.00 Pagi – 3.00 Petang</p>
+    <p><strong> Lokasi:</strong> Dewan Harumanis PTSS</p>
+    <p><strong> Harga:</strong> RM 110 / slot</p>
+
+    <p><strong> Hubungi:</strong> 017-3141947 | areendraa@gmail.com</p>
+</section>
+
+<hr>
+
+<!-- ===== Borang Tempahan ===== -->
+<section class="form-section">
+    <h2>Borang Pendaftaran</h2>
+
+    <form id="bookingForm">
+        <label>Nama Penuh</label>
+        <input type="text" id="nama" required>
+
+        <label>E-mel</label>
+        <input type="email" id="email" required>
+
+        <label>No Telefon</label>
+        <input type="text" id="telefon" required>
+
+        <label>Kategori Peserta</label>
+        <select id="kategori" required>
+            <option value="">-- Pilih --</option>
+            <option>Pelajar</option>
+            <option>Pensyarah</option>
+            <option>Orang Awam</option>
+            <option>Korporat</option>
+        </select>
+
+        <label>Bilangan Slot</label>
+        <input type="number" id="slot" min="1" required>
+
+        <label>Bukti Pembayaran</label>
+        <input type="file" required>
+
+        <label>
+            <input type="checkbox" id="agree" required>
+            Saya bersetuju dengan terma & syarat
+        </label>
+
+        <button type="submit">Hantar</button>
+    </form>
+</section>
+
+<!-- ===== Paparan Pengesahan ===== -->
+<section id="confirmation"></section>
+
+<script src="script.js"></script>
+</body>
+</html>
